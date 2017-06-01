@@ -16,7 +16,6 @@ public class RectangleTest {
     @Test
     public void shouldScaleRectangleByTwo()
     {
-
         assertEquals(new Rectangle(4,6),new Rectangle(2,3).scaleRectangleByTwo(2));
     }
     @Test
