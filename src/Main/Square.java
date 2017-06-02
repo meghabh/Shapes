@@ -1,7 +1,7 @@
 /**
  * Created by meghah on 6/1/17.
  */
-public class Square extends Shape {
+public class Square implements Shape {
     private int side;
 
     public Square(int side) {

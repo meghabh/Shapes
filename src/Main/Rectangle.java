@@ -1,7 +1,7 @@
 /**
  * Created by meghah on 6/1/17.
  */
-public class Rectangle extends Shape {
+public class Rectangle implements Shape {
     private int length;
     private int width;
 
