@@ -26,8 +26,8 @@ public class Rectangle extends Shape {
     public boolean equals(Object obj) {
         if (obj == null)
             return false;
-        if (obj instanceof Rectangle)
-            return true;
+        if (!(obj instanceof Rectangle))
+            return false;
         Rectangle rectangle = (Rectangle) obj;
         return (this.length == rectangle.length && this.width == rectangle.width);
 

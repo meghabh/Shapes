@@ -17,14 +17,14 @@ public class Shapes {
     }
 
     public void add(Shape shape) {
-        if(shape == null)
-            throw  new IllegalArgumentException();
-        allShapes.add(shape);
+        if (shape == null)
+            throw new IllegalArgumentException();
+         allShapes.add(shape);
     }
 
     public int getTotalArea() {
         int sum = 0;
-        for(Shape shape : allShapes)
+        for (Shape shape : allShapes)
             sum += shape.getArea();
         return sum;
     }
